@@ -1,0 +1,81 @@
+
+  body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+.intro {
+  background: #fdd;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.members {
+  background: #eee;
+  padding: 20px;
+}
+
+.member-box {
+  display: inline-block;
+  background: white;
+  padding: 10px;
+  margin: 5px;
+  border: 1px dashed #999;
+}
+
+.news {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+.video {
+  padding: 20px;
+  background: #fefefe;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 アスペクト比 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
